@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    size: 800px 500px;
+
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.flex{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 6px;
+    width: 150px;
+    
+    margin: 12px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    font-weight:700;
+    display: block;
+}
+.btn :hover{
+    opacity: 1;
+}    
+h1,h2,h3{
+    padding: 12px 0;
+}
+.header{
+    background-color: rgb(175, 199, 231);
+    height: 90vh;
+    width: 210vh;
+    padding: 25px;
+    color: black;
+}
+.head-top span{
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition-property: var(--transition);
+    margin-right: 250px;
+}
+.head-top span:hover{
+    color: rgba(18, 52, 165, 0.74);
+}
+.head-bottom{
+    flex: auto;
+    text-align: center;
+    width: 100vh;
+    margin: 0;
+}
+.head-bottom h2{
+    margin: 30px;
+    padding: 20px;
+    font-size: 50px;
+    border-block: 1px solid rgb(8, 0, 0);
+}
+.head-bottom p{
+    padding: 20px;
+    font-size: 20px;
+    margin: 30px auto;
+}
+.head-btn{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(7, 0, 0);
+    padding: 13px 20px;
+    background: rgb(4, 23, 88);
+    color: white;
+    cursor: pointer;
+}
+.mid-bar{
+    background-color:rgb(4, 23, 88) ;
+    color: white;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 90vh ;
+    padding: 22px;
+    
+}
+.mid-bar.show{
+    right: 0;
+}
+.nav-bar{
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 400px;
+    list-style: none;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo img{
+    width: 50vh;
+    height: 20vh;
+}
+.nav-bar li {
+    padding: 20px;
+    margin: 0;    
+}
+.nav-bar li a{
+    background-color:white;
+    border: 2px black ;
+    left: 0%;
+    border-radius: 12px;
+    background-size: cover;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;;
+    padding: 12px; 
+    
+}
+.sign-up, .log-in{
+    background-color:white;
+    width: 15vw;
+    color: black;
+}
+.content-info{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+    width: 100vw;
+}
+.title h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: rgb(4, 23, 88);
+    border-bottom: 2px double black;
+    border-width: 8px;
+    width: 240px;
+    margin: 15px 0;
+  }
+.footer{
+    background: rgb(4, 23, 88);
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;   
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
